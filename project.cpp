@@ -631,7 +631,7 @@ void listadoProductos(const tListaProductos &listap)
 {	
 	
 	cout << "\t\tPRODUCTOS DISPONIBLES" << endl;
-	cout << "|ID|AÑO                |MARCA              |ORIGEN    |DESCRIPCION |VALOR" << endl;
+	cout << "|ID|AÃ‘O                |MARCA              |ORIGEN    |DESCRIPCION |VALOR" << endl;
     for (int i = 0; i < listap.contadorproductos; i++)
     {
         mostrarProductos(listap.elementosproductos[i]);
@@ -653,7 +653,7 @@ void buscarProductos(const tListaProductos listap, string codigo, bool &ok)
             archivo << "|---------------------------------------------------------------------------|" << endl;
             archivo << "| DATOS PRODUCTO                                                            |" << endl;
             archivo << "|---------------------------------------------------------------------------|" << endl;
-            archivo << "|ID|AÑO             |MARCA            |ORIGEN    |VALOR     |DESCRIPCION    |" << endl;
+            archivo << "|ID|AÃ‘O             |MARCA            |ORIGEN    |VALOR     |DESCRIPCION    |" << endl;
 			archivo << " " <<listap.elementosproductos[i].precio << "  ";
 	        archivo << listap.elementosproductos[i].codigo << "             ";
 	        archivo << listap.elementosproductos[i].marca << "            ";
